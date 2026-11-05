@@ -1,6 +1,7 @@
 name: run generator tests
 
 on:
+  workflow_dispatch:
   workflow_call:
     inputs:
       pr_number:
